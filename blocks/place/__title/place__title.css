@@ -5,12 +5,21 @@
   font-weight: 900;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .place__title {
-    margin-top: 48px;
+    margin: 48px 16px 0 16px;
+    font-size: 32px;
+    line-height: 35px;
   }
 
   .place__title:first-of-type {
     margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
   }
 }
