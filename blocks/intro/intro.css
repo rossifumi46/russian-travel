@@ -3,11 +3,11 @@
 @import url(./__list/intro__list.css);
 
 .intro {
-  max-width: 690px;
+  max-width: 984px;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
   margin-top: 114px;
-  margin-left: 148px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
